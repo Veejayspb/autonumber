@@ -1,0 +1,17 @@
+{
+    "name": "veejay/autonumber",
+    "description": "Automobile registration number generator.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "veejay\\autonumber\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
